@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Tp 1</title>
+</head>
+<body>
+    
+    <div class="cuadrado">
+        <h1>CALCULADORA</h1> 
+        
+        <p>Primer número</p> <input type="number" name="num1" id="num1" placeholder="Escribe tu primer número aquí">
+        <p>Segundo número</p> <input type="number" name="num2" id="num2" placeholder="Escribe tu segundo número aquí"> 
+        <p>Elige la operación matemática a realizar</p>
+        <div class="radios">
+            <input type="radio" name="operacion" value="op1" > </label> Sumar<br>
+            <input type="radio" name="operacion" value="op2"> Restar
+            <input type="radio" name="operacion" value="op3"> Multiplicar
+            <input type="radio" name="operacion" value="op4"> Dividir
+        </div>
+        <input class="boton" type="button" value="CALCULAR" onclick="calcular()"> 
+    </div>  
+
+    <div class="cuadrado">
+        <h3>Resultado: </h3>
+        <h2 id="rta"></h2>
+    </div>
+
+    <script src="./codigo.js"> </script>
+</body>
+</html>

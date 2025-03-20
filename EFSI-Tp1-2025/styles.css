@@ -1,0 +1,111 @@
+/* PALETA DE COLORES: https://coolors.co/palette/16697a-489fb5-82c0cc-ede7e3-ffa62b
+    BLANCO: ede7e3
+    CELESTITO: 82C0CC
+    CELESTITO2: 489FB5
+    AZUL: 16697A
+    AMARILLO: FFA62B*/
+
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        width:100%;
+        height:100%;
+        margin:0;
+        background-color: #82C0CC;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cuadrado {
+        width:30%;
+        min-width: 400px;
+        max-width: 800px; 
+        height:auto;
+        background-color: #fdf8f4;
+        padding:3%;
+        padding-top:1%;
+        padding-bottom:2%;
+        margin:4%;
+        margin-left:32%;
+        margin-right: 32%;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 20px;
+    }
+    
+    
+    h1 {
+        font-weight: 800;
+        font-size:xx-large;
+        color:#16697A;
+        text-align: center;
+        margin-right:7%;
+        margin-bottom:4%;
+        margin-top: 5%;
+    }
+    
+    input
+    {
+        width:100%;
+        height: 5%;
+        padding-left: 1%;
+        margin-bottom: 5%;
+        background-color: #f3efeb;
+        border: 4px solid #f3efeb ;
+        border-radius: 7px;
+        font-weight: 600;
+    }
+    
+    input:focus
+    {
+        border: 4px solid #82C0CC ;
+        background-color: #fdf8f4;
+        border-radius: 10px;
+    }
+    
+    input::placeholder 
+    {
+      margin-left: 10%;
+      font-weight: 300;
+    }
+    
+    p   
+    {
+        font-size:medium;
+        font-weight: 450;
+        margin-bottom: 2%;
+        text-align: left;
+        color:#000000e5;
+    }  
+    
+
+    .cuadrado .radios input{
+        width:50%;
+        height: 10%;
+    }
+
+
+    .boton
+    {
+        width: 85%;
+        height: auto;
+        padding: 2.5%;
+        background-color: #FFA62B;
+        border: 0px;
+        color: #fdf8f4;
+        border-radius: 10px;
+        margin-bottom: 10%;
+        font-size:larger;
+        margin-top: 5%;
+    }
+    
+    .boton:hover
+    {
+        background-color: #ee9211;
+    }
+
+    h3{margin-right: 2%;}
